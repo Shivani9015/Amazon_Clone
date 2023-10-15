@@ -1,0 +1,70 @@
+header{
+    background-color: pink;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    background-color: cadetblue;
+    height: 350px;
+    display: flex;
+}
+.box2{
+    background-color: cadetblue;
+    height: 350px;
+    display: flex;
+}
+.content-section{
+    background-color:pink;
+    height: 90%;
+    width: 25%;
+    margin: 5px;
+    justify-content: center;
+    background-image: url(fur1.jpg);
+    background-size: cover;
+    border-image: fill;
+    
+}
+.content-2{
+    height: 15%;
+    width: auto;
+    
+}
+p{
+    padding-top: 310px;
+    padding-left: 50px;
+}
+.two{
+background-image: url(fur2.jpg);
+}
+.three{
+    background-image: url(fur3.jpg);
+}
+.four{
+    background-image: url(fur4.jpg);
+}
+.five{
+    background-image: url(fur5.jpg);
+    }
+.six{
+        background-image: url(fur6.jpg);
+    }
+.seven{
+        background-image: url(fur7.jpg);
+    }
+.eight{
+    background-image: url(fur8.jpg);
+}
+footer{
+    background-color: pink;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+     
+}
+i{
+    color: black;
+}

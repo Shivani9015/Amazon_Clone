@@ -1,0 +1,19 @@
+.one{
+    background-color: peru;
+    text-align: center;
+}
+.two{
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    font-size: large;
+    
+}
+h1{
+    text-align: center;
+    background-color: olive;
+}
+footer{
+    height: 70px;
+    background-color:olive ;
+}

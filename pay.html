@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="pay.css">
+    <!-- Include any necessary CSS or JavaScript libraries for styling and validation -->
+</head>
+<body>
+    <h1>Checkout</h1>
+    <div class="one">
+    <p>Enter your payment information to complete your purchase.</p>
+    </div>
+
+    <div class="two">
+    <form action="process_payment.php" method="post">
+        <!-- Cardholder's Name -->
+        <label for="cardholder">Cardholder's Name:</label>
+        <input type="text" id="cardholder" name="cardholder" required><br>
+
+        <!-- Card Number -->
+        <label for="cardnumber">Card Number:</label>
+        <input type="text" id="cardnumber" name="cardnumber" required><br>
+
+        <!-- Expiry Date -->
+        <label for="expiry">Expiry Date:</label>
+        <input type="text" id="expiry" name="expiry" placeholder="MM/YYYY" required><br>
+
+        <!-- CVV (Card Verification Value) -->
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" required><br>
+
+        <!-- Billing Address -->
+        <label for="billingaddress">Billing Address:</label>
+        <textarea id="billingaddress" name="billingaddress" rows="4" required></textarea><br>
+
+        <!-- Total Amount -->
+        <label for="total">Total Amount:</label>
+        <input type="text" id="total" name="total" readonly value=""><br>
+
+        <!-- Submit Button -->
+        <button type="submit" > <a href="submit.html">submit</a></button>
+    
+    </form>
+    </div>
+    <footer>
+        For enquery or payment related issue please contact amazin.com
+    </footer>
+</body>
+</html>

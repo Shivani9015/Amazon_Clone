@@ -1,0 +1,70 @@
+header{
+    background-color: pink;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    background-color: cadetblue;
+    height: 350px;
+    display: flex;
+}
+.box2{
+    background-color: cadetblue;
+    height: 350px;
+    display: flex;
+}
+.content-section{
+    background-color:pink;
+    height: 90%;
+    width: 25%;
+    margin: 5px;
+    justify-content: center;
+    background-image: url(health8.jpg);
+    background-size: cover;
+    border-image: fill;
+    
+}
+.content-2{
+    height: 15%;
+    width: auto;
+    
+}
+p{
+    padding-top: 310px;
+    padding-left: 50px;
+}
+.two{
+background-image: url(health2.jpg);
+}
+.three{
+    background-image: url(health3.jpg);
+}
+.four{
+    background-image: url(health4.jpg);
+}
+.five{
+    background-image: url(health5.jpg);
+    }
+.six{
+        background-image: url(health6.jpg);
+    }
+.seven{
+        background-image: url(health7.jpg);
+    }
+.eight{
+    background-image: url(health8.jpg);
+}
+footer{
+    background-color: pink;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+     
+}
+i{
+    color: black;
+}
